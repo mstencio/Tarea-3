@@ -1,0 +1,14 @@
+
+<body>
+    <div class="container-fluid p-3">
+        <div id="a" class="row ">
+            <div class="m-3 text-center">
+                <h2>Cursos</h2>
+                <li *ngFor="let item of cursos">{{item}}</li>
+            </div>
+        </div>
+    </div>
+   
+     <app-footer [titulo]="'EDUCACIÓN STEAM: LA ESTRATEGIA PARA LOS PROFESORES DEL FUTURO'" [parrafo]="'En la Ucreativa contamos ya con la primera Certificación Profesional en Educación STEAM para educadores de primaria y secundaria.'"></app-footer>
+        
+</body>
